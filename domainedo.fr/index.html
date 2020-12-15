@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Domino bootstrap sass</title>
+    <title>Domaine d'O bootstrap sass</title>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link href="css/index.css" rel="stylesheet">
@@ -16,19 +16,29 @@
         <section class="container">
             <nav class="d-flex ">
                 <ul class="d-flex list-unstyled">
-                    <li class="m-2"><i class="fab fa-facebook-f fa-xs"></i></li>
-                    <li class="m-2"><i class="fab fa-twitter fa-xs"></i></li>
-                    <li class="m-2"><i class="fab fa-youtube fa-xs"></i></li>
-                    <li class="m-2"><i class="fab fa-tripadvisor fa-xs"></i></li>
+                    <li class="m-2"><a class="text-dark" href="https://www.facebook.com/"><i
+                                class="fab fa-facebook-f fa-xs"></i></a></li>
+                    <li class="m-2"><a class="text-dark" href="https://twitter.com/?lang=fr"><i
+                                class="fab fa-twitter fa-xs"></i></a></li>
+                    <li class="m-2"><a class="text-dark" href="https://www.youtube.com/"><i
+                                class="fab fa-youtube fa-xs"></i></a></li>
+                    <li class="m-2"><a class="text-dark" href="https://www.tripadvisor.fr/"><i
+                                class="fab fa-tripadvisor fa-xs"></i></a></li>
                 </ul>
                 <ul class="d-flex justify-content-center list-unstyled">
-                    <li class="m-2 w-25"><img class="img-fluid" src="asset/Domaine-Do.jpg"
-                            alt="Logo - Domaine d'O Montpellier"></li>
+                    <li class="m-2 w-25">
+                        <h1>
+                            <a href="">
+                                <img class="img-fluid" src="asset/Domaine-Do.jpg"
+                                    alt="Logo domaine d'O - Montpellier 3M - retour accueil">
+                            </a>
+                        </h1>
+                    </li>
                 </ul>
-                <section>
+                <div>
                     <ul class="d-flex flex-row list-unstyled">
                         <li class="m-2">
-                            <button class="d-flex border border-warning bg-white" type="button">
+                            <button class="d-flex btn-ddo" type="button">
                                 <span>
                                     <i class="fas fa-bell"></i>
                                 </span>
@@ -38,24 +48,24 @@
                             </button>
                         </li>
                         <li class="m-2">
-                            <button class="d-flex border border-warning bg-white text-warning" type="button">
+                            <button class="d-flex btn-ddo" type="button">
                                 <span>
                                     <i class="fas fa-bookmark fa-xs"></i>
                                 </span>
                                 <span>
-                                     ABONNEMENT
+                                    ABONNEMENT
                                 </span>
                             </button>
                         </li>
                     </ul>
-                </section>
+                </div>
             </nav>
         </section>
 
         <section class="container">
             <nav class="d-flex justify-content-between">
                 <ul class="list-unstyled">
-                    <li class="text-warning"><i class="fas fa-bars  fa-2x"></i></li>
+                    <li class="text-warning"><i class="fas fa-bars fa-2x"></i></li>
                 </ul>
                 <ul class="d-flex list-unstyled">
                     <li class="font-weight-bold mx-5 me-5">SPECTABLCES</li>
@@ -64,7 +74,7 @@
                     <li class="font-weight-bold mx-5 me-5">PRATIQUE</li>
                 </ul>
                 <ul class=" list-unstyled">
-                    <li class="float-right"><i class="fas fa-search  fa-2x"></i></li>
+                    <li class="float-right"><i class="fas fa-search fa-2x"></i></li>
                 </ul>
             </nav>
         </section>
@@ -79,37 +89,49 @@
                         COVID 19 - INFORMATION SUR LES SPECTACLES (MISE A JOUR 04/12)
                     </article>
                     <article class="pl-5 pr-5">
-                        Suite aux dernières mesures gouvernementales, pour lutter contre l'épidémie de COVID-19, 
+                        Suite aux dernières mesures gouvernementales, pour lutter contre l'épidémie de COVID-19,
                         <u>
                             <a class="text-white" href="">lesbureaux du domaine d'O restent fermés.</a>
                         </u>
                     </article>
                     <article class="pl-5 w-50">
-                        <button class="p-2 bg-white border-warning text-warning font-weight-bold" type="button">PLUS D'INFOS</button>
+                        <button class="p-2 bg-white border border-warning text-warning font-weight-bold"
+                            type="button">PLUS
+                            D'INFOS</button>
                     </article>
                 </section>
             </section>
         </section>
 
         <section class="container d-flex justify-content-center ">
-            <section class="m-2">
-                <img class="img-responsive w-100" srcset="https://www.domainedo.fr/sites/default/files/styles/en-ce-momentbreakpoints_theme_ddobs_wide_1x/public/thumbnails/image/visuel_accueil_site-2020-final2.jpg?itok=5F9H0TK3 768w" alt="visuel_saison_accueil_v3ok.jpg" title="visuel_saison_accueil_v3ok.jpg">
-                <article>
-                    OUVERTURE DE LA SAISON </br>
-                    <button>PLUS D'INFOS</button>
+            <section class="m-2 hero1 backgroundSize">
+                <article class="text-right pt-7 m-3">
+                    <h3 class="m-1 h1 text-white">OUVERTURE DE LA SAISON</h3>
+                    <span class="ml-6 articleBorder"></span>
+                    <button class="m-1 btn-ddo" type="button">PLUS D'INFOS</button>
                 </article>
             </section>
-
             <section class="m-2">
-                <img typeof="foaf:Image" class="img-responsive w-100" src="https://www.domainedo.fr/sites/default/files/styles/zoom_ss_634x440/public/thumbnails/image/sans_titre2.jpg?itok=gYBapakQ&amp;c=20f1d2f1616f56321b6b32a53beff415" width="634" height="440" alt="Feu artifice illustration 1.jpg" title="Feu artifice illustration 1.jpg">
-                <article>
-                    <h3>REPRISE EN JANVIER ? RÉSERVEZ OU OFFREZ DES PLACES DE SPECTACLE !</h3>
-
-                </article>
+                <img typeof="foaf:Image" class="img-responsive w-100"
+                    src="https://www.domainedo.fr/sites/default/files/styles/zoom_ss_634x440/public/thumbnails/image/sans_titre2.jpg?itok=gYBapakQ&amp;c=20f1d2f1616f56321b6b32a53beff415"
+                    width="634" height="440" alt="Feu artifice illustration 1.jpg"
+                    title="Feu artifice illustration 1.jpg">
+                <section class="d-flex">
+                    <article>
+                        <h3 class="h4 text-warning">REPRISE EN JANVIER ? RÉSERVEZ OU OFFREZ DES PLACES DE SPECTACLE !</h3>
+                    </article>
+                    <div class="d-flex flex-row w-25">
+                        <button class="btn-ddo-reverse mt-4 mb-4 ml-1 mr-1" type="button">
+                            <i class="fas fa-angle-left"></i>
+                        </button>
+                        <button class="btn-ddo-reverse mt-4 mb-4 ml-1 mr-1" type="button">
+                            <i class="fas fa-angle-right"></i>
+                        </button>
+                    </div>
+                </section>
+                <button class="m-1 btn-ddo float-right" type="button">PLUS D'INFOS</button>
             </section>
         </section>
-
-
         <section class="bg-secondary p-4">
             <section class="container">
                 <h2>Accès par festival</h2>
@@ -120,44 +142,189 @@
                     </article>
                     <article>
                         <button class="border border-dark font-weight-bold" type="button">
-                            <i class="fas fa-bookmark">LE CALENDRIER</i>
+                            <i class="fas fa-calendar-alt">LE CALENDRIER</i>
                         </button>
 
                     </article>
                 </section>
             </section>
         </section>
-
         <section class="container">
-            <h4>Spectacles à venir</h4>
-            <section>
-                <!--background image-->
-                <header>
-                    SAISON 20/21
-                </header>
-                <article>
-                    17/12/2020 > 18/12/2020
-                    K BAZAR 30
-                    ANNULÉ pour cause de crise sanitaire
-                    Report à l'étude plus d'informations à venir
-                    <ul class=" d-flex list-unstyled">
-                        <li><button>Détails</button></li>
-                        <li><button>réserver</button></li>
-                    </ul>
-                </article>
+            <h4 class=" mt-3 mb-2">Spectacles à venir</h4>
+            <section class="d-flex justify-content-between">
+                <section class="hero3 backgroundSizeArticle">
+                    <header class="text-white">
+                        <button class="text-white bg-dark m-2" type="button">SAISON 20/21</button>
+                    </header>
+                    <article class=" p-2 pt-7">
+                        <span class="text-white">17/12/2020 > 18/12/2020</span><br>
+                        <h5 class="text-white">K BAZAR 30</h5>
+                        <p class="text-danger">
+                            ANNULÉ pour cause de crise sanitaire
+                            Report à l'étude plus d'informations à venir
+                        </p>
+                        <ul class="d-flex justify-content-between list-unstyled">
+                            <li><button class="btn-ddo" type="button">Détails</button></li>
+                            <li><button class="btn-ddo-reverse" type="button">réserver</button></li>
+                        </ul>
+                    </article>
+                </section>
+                <section class="hero4 backgroundSizeArticle">
+                    <header >
+                        <button class="text-white bg-dark ml-1 mt-2" type="button">Festival des folies d'O 2020</button>>
+                    </header>
+                    <article class=" p-5 pr-3 pl-3  pt-9">
+                        <span class="text-white">Ven 18 décembre 20h00</span><br>
+                        <h5 class="text-white">LES GRANDES ECLATEES MICHEL LEGRAND</h5>
+                        <p class="text-white"> 
+                            Du 17 octobre au 23 décembre à l'Opéra Berlioz - Le Corum et au domaine d'O au théâtre Jean-Claude Carrière.
+                        </p>
+                        <ul class="d-flex justify-content-between list-unstyled">
+                            <li><button class="btn-ddo" type="button">Détails</button></li>
+                            <li><button class="btn-ddo-reverse" type="button">réserver</button></li>
+                        </ul>
+                    </article>
+                </section>
+                
+                <section class="hero5 backgroundSizeArticle">
+                    <header class="text-white">
+                        <button class="text-white bg-dark m-2" type="button">SAISON 20/21</button>
+                    </header>
+                    <article class=" p-2 pt-7">
+                        <span class="text-white">13/01/2021 > 15/01/2021 </span><br>
+                        <h5 class="text-white">A NOS AILLEURS</h5>
+                        <p>
+                            co-production domaine d'O
+                        </p>
+                        <ul class="d-flex justify-content-between list-unstyled">
+                            <li><button class="btn-ddo" type="button">Détails</button></li>
+                            <li><button class="btn-ddo-reverse" type="button">réserver</button></li>
+                        </ul>
+                    </article>
+                </section>
             </section>
+
+            <section class="d-flex justify-content-between mt-4">
+                <section class="hero6 backgroundSizeArticle">
+                    <header class="text-white">
+                        <button class="text-white bg-dark m-2" type="button">SAISON 20/21</button>
+                    </header>
+                    <article class=" p-2 pt-7">
+                        <span class="text-white">19/01/2021 > 21/01/2021 </span><br>
+                        <h5 class="text-white">IL FAUT DIRE</h5>
+                        <p>
+                            Co-production domaine d'O
+                        </p>
+                        <ul class="d-flex justify-content-between list-unstyled">
+                            <li><button class="btn-ddo" type="button">Détails</button></li>
+                            <li><button class="btn-ddo-reverse" type="button">réserver</button></li>
+                        </ul>
+                    </article>
+                </section>
+                <section class="hero7 backgroundSizeArticle">
+                    <header class="text-white">
+                        <button class="text-white bg-dark m-2" type="button">SAISON 20/21</button>
+                    </header>
+                    <article class=" p-2 pt-7">
+                        <span class="text-white">Mer 20 janvier 19h00 </span><br>
+                        <h5 class="text-white">FATOUMATA DIAWARA</h5>
+                        <p>
+                            Artiste du monde, Fatoumata chante ses racines africaines
+                        </p>
+                        <ul class="d-flex justify-content-between list-unstyled">
+                            <li><button class="btn-ddo" type="button">Détails</button></li>
+                            <li><button class="btn-ddo-reverse" type="button">réserver</button></li>
+                        </ul>
+                    </article>
+                </section>
+                <section class="hero8 backgroundSizeArticle">
+                    <header class="text-white">
+                        <button class="text-white bg-dark m-2" type="button">SAISON 20/21</button>
+                    </header>
+                    <article class=" p-2 pt-7">
+                        <span class="text-white">Sam 23 janvier 10h00 </span><br>
+                        <h5 class="text-white">STAGE THEATRE: LE THEATRE POUR SE LIBRER DE SOI-MEME</h5>
+                        <p>
+                            Et si on montait sur scène ?
+                        </p>
+                        <ul class="d-flex justify-content-between list-unstyled">
+                            <li><button class="btn-ddo" type="button">Détails</button></li>
+                            <li><button class="btn-ddo-reverse" type="button">réserver</button></li>
+                        </ul>
+                    </article>
+                </section>
+            </section>
+
+            <section class="d-flex justify-content-between mt-4">
+                <section class="hero9 backgroundSizeArticle">
+                    <header class="text-white">
+                        <button class="text-white bg-dark m-2" type="button">SAISON 20/21</button>
+                    </header>
+                    <article class=" p-2 pt-7">
+                        <span class="text-white">19/01/2021 > 21/01/2021 </span><br>
+                        <h5 class="text-white">IL FAUT DIRE</h5>
+                        <p>
+                            Co-production domaine d'O
+                        </p>
+                        <ul class="d-flex justify-content-between list-unstyled">
+                            <li><button class="btn-ddo" type="button">Détails</button></li>
+                            <li><button class="btn-ddo-reverse" type="button">réserver</button></li>
+                        </ul>
+                    </article>
+                </section>
+                <section class="hero10 backgroundSizeArticle">
+                    <header class="text-white">
+                        <button class="text-white bg-dark m-2" type="button">SAISON 20/21</button>
+                    </header>
+                    <article class=" p-2 pt-7">
+                        <span class="text-white">Mer 20 janvier 19h00 </span><br>
+                        <h5 class="text-white">FATOUMATA DIAWARA</h5>
+                        <p>
+                            Artiste du monde, Fatoumata chante ses racines africaines
+                        </p>
+                        <ul class="d-flex justify-content-between list-unstyled">
+                            <li><button class="btn-ddo" type="button">Détails</button></li>
+                            <li><button class="btn-ddo-reverse" type="button">réserver</button></li>
+                        </ul>
+                    </article>
+                </section>
+                <section class="hero11 backgroundSizeArticle">
+                    <header class="text-white">
+                        <button class="text-white bg-dark m-2" type="button">SAISON 20/21</button>
+                    </header>
+                    <article class=" p-2 pt-7">
+                        <span class="text-white">Sam 23 janvier 10h00 </span><br>
+                        <h5 class="text-white">STAGE THEATRE: LE THEATRE POUR SE LIBRER DE SOI-MEME</h5>
+                        <p>
+                            Et si on montait sur scène ?
+                        </p>
+                        <ul class="d-flex justify-content-between list-unstyled">
+                            <li><button class="btn-ddo" type="button">Détails</button></li>
+                            <li><button class="btn-ddo-reverse" type="button">réserver</button></li>
+                        </ul>
+                    </article>
+                </section>
+            </section>
+
         </section>
+        <div class="container text-center">
+            <button class="btn-ddo mt-3 mb-3" type="button">
+                VOIR TOUS LES SPECTABLES
+            </button>
+        </div>
         <hr class="container bg-dark">
+      
+        
     </main>
-    
+
     <footer class="container">
         <section class="d-flex justify-content-between">
-             <ul class="w-50 list-unstyled">
+            <ul class="w-50 list-unstyled">
                 <li class="mb-3"><a class="text-dark" href="espace_technique.html">Espace technique</a></li>
                 <li class="mb-3"><a class="text-dark" href="espace_technique.html">Espace Multimedia</a></li>
                 <li class="mb-3"><a class="text-dark" href="espace_technique.html">Lettre d'info</a></li>
                 <li class="mb-3"><a class="text-dark" href="espace_technique.html">Partenaires</a></li>
-            </ul> 
+            </ul>
             <ul class="px-3 w-50 list-unstyled">
                 <li class="mb-3"><a class="text-dark" href="espace_technique.html">Crédits</a></li>
                 <li class="mb-3"><a class="text-dark" href="espace_technique.html">Mentions légales </a></li>
@@ -179,9 +346,10 @@
             <section class="d-flex px-3">
                 <article>
                     <p>
-                        Le domaine d'O est un domaine d'art et de spectacles pluridisciplinaire : <strong>théâtre, musique,
-                        cirque,
-                        danse,</strong> spectacles <strong>jeune public</strong>.
+                        Le domaine d'O est un domaine d'art et de spectacles pluridisciplinaire : <strong>théâtre,
+                            musique,
+                            cirque,
+                            danse,</strong> spectacles <strong>jeune public</strong>.
                     </p>
                     <p>
                         Il abrite un amphithéâtre de 1800 places, le théâtre Jean-Claude Carrière de 600 à 1200 places,

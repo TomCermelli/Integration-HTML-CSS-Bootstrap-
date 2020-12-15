@@ -1,0 +1,96 @@
+button {
+    &.btn-ddo {
+        border: 1px solid map-get($theme-colors , "warning") !important;
+        background-color: white;
+        font-weight: bold;
+        color: map-get($theme-colors , "warning");
+        
+        &:hover 
+        {
+            background-color: map-get($theme-colors , "warning");
+            color:white;
+        } 
+    }
+    
+    &.btn-ddo-reverse {
+        border: 1px solid map-get($theme-colors , "warning") !important;
+        background-color: map-get($theme-colors , "warning") ;
+        font-weight: bold;
+        color: white;
+
+        &:hover 
+        {
+            background-color: white;
+            color: map-get($theme-colors , "warning");
+        } 
+    }
+}
+
+.articleBorder {
+    display: block;
+    border-bottom: 8px solid #f74e2d;
+    margin-top: -1.5em;
+    margin-bottom: 1.5em;
+}
+
+
+.backgroundSize {
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.backgroundSizeArticle {
+    height: 550px;
+    width: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero1 {
+    
+    background: url("../asset/visuel_accueil.jpg");
+}
+
+
+.hero2 {
+    background: url("../asset/visuel_accueil.jpg");
+}
+
+.hero3{
+    background: url("../asset/k_bazar.jpg");
+}
+    
+.hero4 {
+    
+    background: url("../asset/michel_legrand.jpg");
+}
+
+.hero5 {
+    background: url("../asset/ailleurs.jpg");
+}
+
+.hero6 {
+    background: url("../asset/co-production.jpg");
+}
+
+.hero7 {
+    background: url("../asset/fatoumata.jpg");
+}
+
+.hero8{
+    background: url("../asset/stage.jpg");
+}
+
+.hero9 {
+    background: url("../asset/co-montpellier.jpg");
+}
+
+.hero10 {
+    background: url("../asset/visite_guidee.jpg");
+}
+
+.hero11 {
+    background: url("../asset/borderless.jpg");
+}

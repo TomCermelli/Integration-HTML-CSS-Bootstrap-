@@ -1,4 +1,15 @@
 $theme-colors: (
   "warning": rgb(247,78,45),
-  "dark": rgb(0,0,0)
+  "dark": rgb(0,0,0),
+  "secondary": rgb(239,239,239),
+  "danger": rgb(255,81,0),
+  "primary": rgb(253,139,0)
 );
+
+$spacer: 1rem;
+$spacers: (
+  6: ($spacer * 5),
+  7: ($spacer * 20),
+  8: ($spacer * 15),
+  9: ($spacer * 18)
+)
